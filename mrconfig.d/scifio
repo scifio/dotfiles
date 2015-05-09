@@ -40,9 +40,6 @@ checkout = git clone git://github.com/scifio/scifio-lifesci
 [code/scifio/scifio-ome-xml]
 checkout = git clone git://github.com/scifio/scifio-ome-xml
 
-[code/scifio/scifio-omero]
-checkout = git clone git://github.com/scifio/scifio-omero
-
 [code/scifio/scifio-testing]
 checkout = git clone git://github.com/scifio/scifio-testing
 
