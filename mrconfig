@@ -1,8 +1,54 @@
 # mr configuration file for SCIFIO projects
 
-# Install myrepos on Mac OS X using Homebrew, or on Debian/Ubuntu using apt.
+# Install myrepos on macOS using Homebrew, or on Ubuntu using apt.
 
 # Reference this file from your toplevel ~/.mrconfig like this:
 # include = cat $CODE_BASE/scifio/dotfiles/mrconfig 2> /dev/null || true
 
-include = cat $CODE_BASE/scifio/dotfiles/mrconfig.d/* 2> /dev/null || true
+[code/scifio/dotfiles]
+checkout = git clone git://github.com/scifio/dotfiles
+
+[code/scifio/scifio]
+checkout = git clone git://github.com/scifio/scifio
+
+[code/scifio/scifio-benchmark]
+checkout = git clone git://github.com/scifio/scifio-benchmark
+
+[code/scifio/scifio-bf-compat]
+checkout = git clone git://github.com/scifio/scifio-bf-compat
+
+[code/scifio/scifio-cli]
+checkout = git clone git://github.com/scifio/scifio-cli
+
+[code/scifio/scifio-hdf5]
+checkout = git clone git://github.com/scifio/scifio-hdf5
+
+[code/scifio/scifio-imageio]
+checkout = git clone git://github.com/scifio/scifio-imageio
+
+[code/scifio/scifio-itk-bridge]
+checkout = git clone git://github.com/scifio/scifio-itk-bridge
+
+[code/scifio/scifio-jai-imageio]
+checkout = git clone git://github.com/scifio/scifio-jai-imageio
+
+[code/scifio/scifio-javacv]
+checkout = git clone git://github.com/scifio/scifio-javacv
+
+[code/scifio/scifio-javadoc]
+checkout = git clone git://github.com/scifio/scifio-javadoc
+
+[code/scifio/scifio-lifesci]
+checkout = git clone git://github.com/scifio/scifio-lifesci
+
+[code/scifio/scifio-ome-xml]
+checkout = git clone git://github.com/scifio/scifio-ome-xml
+
+[code/scifio/scifio-testing]
+checkout = git clone git://github.com/scifio/scifio-testing
+
+[code/scifio/scifio-tutorials]
+checkout = git clone git://github.com/scifio/scifio-tutorials
+
+[code/scifio/scifio.github.io]
+checkout = git clone git://github.com/scifio/scifio.github.io
