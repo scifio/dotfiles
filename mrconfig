@@ -35,9 +35,6 @@ checkout = git clone git://github.com/scifio/scifio-jai-imageio
 [code/scifio/scifio-javacv]
 checkout = git clone git://github.com/scifio/scifio-javacv
 
-[code/scifio/scifio-javadoc]
-checkout = git clone git://github.com/scifio/scifio-javadoc
-
 [code/scifio/scifio-lifesci]
 checkout = git clone git://github.com/scifio/scifio-lifesci
 
@@ -52,3 +49,6 @@ checkout = git clone git://github.com/scifio/scifio-tutorials
 
 [code/scifio/scifio.github.io]
 checkout = git clone git://github.com/scifio/scifio.github.io
+
+[code/javadoc/scifio-javadoc]
+checkout = git clone git://github.com/scifio/scifio-javadoc
