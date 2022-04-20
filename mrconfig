@@ -35,6 +35,9 @@ checkout = git clone git@github.com:scifio/scifio-jai-imageio
 [code/scifio/scifio-javacv]
 checkout = git clone git@github.com:scifio/scifio-javacv
 
+[code/scifio/scifio-labeling]
+checkout = git clone git@github.com:scifio/scifio-labeling
+
 [code/scifio/scifio-lifesci]
 checkout = git clone git@github.com:scifio/scifio-lifesci
 
